@@ -6,7 +6,7 @@ function WorkHis(props) {
       <div id="careerContainer">
        
         <h1>Career Goals</h1>
-        <p> To be the very best like no one ever was</p>
+        <p> To expand my code knowledge and experience through hard work and dedicated effort</p>
         <h1>Skills</h1>
         <ul>
           <li>HTML</li>
