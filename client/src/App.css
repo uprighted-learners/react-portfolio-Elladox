@@ -66,10 +66,10 @@ a {
 p {
   color: #a8dadc;
   font-size: 30px;
-text-align: center;
+  text-align: center;
 }
 /* HomePage */
-#profilePicture{
+#profilePicture {
   height: 300px;
   width: 300px;
 }
@@ -82,44 +82,44 @@ text-align: center;
 /* styling for about page text */
 #aboutText {
   display: flex;
-  font-size: larger;  
+  font-size: larger;
   justify-content: right;
   text-align: center;
   font-size: 2.5vw;
 }
 /* Projects */
-.projectImg{
+.projectImg {
   height: 300px;
   width: 300px;
 }
-#projectContainer{
-display: flex;
-align-items: center;
+#projectContainer {
+  display: flex;
+  align-items: center;
 }
 /* Work History */
-li{
+li {
   list-style-type: none;
   color: #a8dadc;
 }
 /* flexbox on workhistory */
-#workContainer{
+#workContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 /* flexbox for workhistory */
-#resumeLink{
-  text-decoration: none
+#resumeLink {
+  text-decoration: none;
 }
-#careerContainer{
+#careerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 /* CONTACT */
-.contactContainer{
+.contactContainer {
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -127,7 +127,7 @@ li{
 }
 /* FOOTER */
 /* styling for copyright info */
-#copy{
+#copy {
   font-size: 1vw;
 }
 /* styling for the footer flexbox */

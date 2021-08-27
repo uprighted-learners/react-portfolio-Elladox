@@ -5,8 +5,9 @@ function Nav(props) {
     <div id="headNav">
       {/* div containing nav links to the other "pages" on the website. This allows App.js to route to the correct places */}
       <div id="navCon">
-        {/* active class name allows for differnt styling based on whether the link has been clicked last */}
+        {/* active class name allows for different styling based on whether the link has been clicked last */}
         <NavLink activeClassName="active" exact to="/">
+          {/* h3 displaying where the link goes to */}
           <h3 className="navContent">Home</h3>
         </NavLink>
         <NavLink activeClassName="active" to="About">

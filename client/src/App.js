@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
@@ -11,11 +10,10 @@ import Projects from "./components/Projects";
 import WorkHis from "./components/WorkHis";
 import Footer from "./components/Footer";
 function App() {
-  
   return (
-    
+    /* set up browserrouter to facilitate react-router */
     <BrowserRouter>
-    {/* Header components remain consistant on all pages */}
+      {/* Header components remain consistent on all pages */}
       <div id="pageHead">
         <Header />
         <Nav />
@@ -32,10 +30,10 @@ function App() {
           <Route path="*" component={FourOhFour} />
         </Switch>
       </div>
-      {/* footer also remains consistant */}
+      {/* footer also remains consistent */}
       <Footer />
     </BrowserRouter>
   );
 }
-/* make sure to export everythign to the index */
+/* make sure to export everything to the index */
 export default App;
