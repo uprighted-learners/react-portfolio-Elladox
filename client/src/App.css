@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+}
+
+/* HEADER */
+#pageHead {
+  /* flexbox for positioning */
+  display: flex;
+  flex-direction: column;
+  background-color: #a8dadc;
+  /* height value specified to structure page */
+  height: 20vh;
+}
+.headerTitle {
+  display: flex;
+  height: 15vh;
+  /* width value specified to structure page */
+  width: 100vw;
+  font-size: 3vw;
+  color: #1d3557;
+}
+/* NAVBAR */
+a {
+  text-decoration: none;
+}
+/* navbar broken up into a couple flex elements to get it to line up correctly */
+#headNav {
+  display: flex;
+  height: 5vh;
+  width: 100vw;
+  background-color: #e63946;
+}
+#navCon {
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+}
+/* styling for the active page, letting the user know what they clicked last */
+.active {
+  background-color: #f1faee;
+}
+/* styling for the nav buttons */
+.navContent {
+  color: #1d3557;
+  font-weight: bold;
+  font-size: 1vw;
+  justify-content: space-between;
+}
+/* Components */
+
+/* body for most pages   is one big flex box */
+#pageBody {
+  display: flex;
+  background-color: #457b9d;
+  height: 70vh;
+}
+.bodyContainer {
+  display: flex;
+  /* padding for to make it less visually cramped */
+  padding: 3vh;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+/* general styling for p divs */
+p {
+  color: #a8dadc;
+  font-size: 30px;
+text-align: center;
+}
+/* HomePage */
+#profilePicture{
+  height: 300px;
+  width: 300px;
+}
+/* About */
+/* styling for the about page's body */
+#aboutBody {
+  padding: 5vh;
+  display: flex;
+}
+/* styling for about page text */
+#aboutText {
+  display: flex;
+  font-size: larger;  
+  justify-content: right;
+  text-align: center;
+  font-size: 2.5vw;
+}
+/* Projects */
+.projectImg{
+  height: 300px;
+  width: 300px;
+}
+#projectContainer{
+display: flex;
+align-items: center;
+}
+/* Work History */
+li{
+  list-style-type: none;
+  color: #a8dadc;
+}
+/* flexbox on workhistory */
+#workContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* flexbox for workhistory */
+#resumeLink{
+  text-decoration: none
+}
+#careerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* CONTACT */
+.contactContainer{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 4vw;
+}
+/* FOOTER */
+/* styling for copyright info */
+#copy{
+  font-size: 1vw;
+}
+/* styling for the footer flexbox */
+#pageFoot {
+  display: flex;
+  background-color: #1d3557;
+  height: 10vh;
+}
+/* sizing for footer images is arbitrary and should be adjusted later */
+.footerLogo {
+  height: 75px;
+  width: 75px;
+}
